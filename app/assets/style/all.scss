@@ -1,6 +1,11 @@
-@import "../../../node_modules/bootstrap/scss/functions";
-@import "./helpers/variables";
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
 
+@import './helpers/variables';
+@import './helpers/base';
 
-@import './layout/index.scss'
+@import './util/spacing';
+@import './util/text';
+
+@import './pages/layout';
+@import './pages/assignment';

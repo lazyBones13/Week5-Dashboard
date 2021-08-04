@@ -1,0 +1,51 @@
+/* 全站設定 */
+body {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  color: $black;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+ol,
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 !important;
+}
+
+textarea {
+  resize: none;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-pic-square {
+  clip-path: inset(10px 20px 30px 40px);
+}
+
+.material-icons {
+  vertical-align: bottom;
+  &:hover {
+    color: $success;
+  }
+}
+.main {
+  margin-left: 296px; //因為position:fixed 的關係
+  padding: 32px;
+}
+.section {
+  margin-bottom: 44px;
+}

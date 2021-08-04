@@ -1,0 +1,30 @@
+.nav {
+  position: fixed;
+  min-width: 296px;
+  min-height: 100vh;
+  padding: 32px 0;
+  &-logo {
+    margin-bottom: 32px;
+    margin-left: 32px;
+  }
+  &-link {
+    padding: 12px 32px;
+    position: relative;
+    color: #000;
+    &:hover {
+      color: $success;
+      background: $gray-200;
+    }
+    &:hover::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 4px;
+      height: 32px;
+      border-left: 4px solid $success;
+    }
+  }
+  &-user-info {
+    margin-left: 32px;
+  }
+}
