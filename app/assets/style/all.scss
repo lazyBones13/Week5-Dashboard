@@ -4,8 +4,10 @@
 @import './helpers/variables';
 @import './helpers/base';
 
-@import './util/spacing';
 @import './util/text';
+
+@import './components/pagination';
 
 @import './pages/layout';
 @import './pages/assignment';
+@import './pages/admin';

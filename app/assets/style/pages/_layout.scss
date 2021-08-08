@@ -23,6 +23,14 @@
       height: 32px;
       border-left: 4px solid $success;
     }
+    &.active::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 4px;
+      height: 32px;
+      border-left: 4px solid $success;
+    }
   }
   &-user-info {
     margin-left: 32px;
