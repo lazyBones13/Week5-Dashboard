@@ -1,4 +1,7 @@
 # 後台版型
 
-> 使用該專案 Gulp 時，就可以不用使用其他編譯工具編譯 SCSS 或是 JavaScript 囉。
+> 點這裡觀看 [Demo](https://lazybones13.github.io/Week5-Dashboard/)。
+
+
+![image](https://user-images.githubusercontent.com/70826350/132130917-f048cacb-ad38-41a4-95ed-b3c859e088db.png)
 
