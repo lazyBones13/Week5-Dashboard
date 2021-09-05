@@ -11671,6 +11671,10 @@ li {
   width: 4px;
   height: 32px;
   border-left: 4px solid #198754;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .nav-link.active::before {
@@ -11680,6 +11684,10 @@ li {
   width: 4px;
   height: 32px;
   border-left: 4px solid #198754;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 h2, .h2, h3, .h3 {
