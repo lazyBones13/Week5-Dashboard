@@ -17,6 +17,8 @@
       width: 4px;
       height: 32px;
       border-left: 4px solid $success;
+      top: 50%;
+      transform: translateY(-50%);
     }
     &.active::before {
       content: '';
@@ -25,6 +27,8 @@
       width: 4px;
       height: 32px;
       border-left: 4px solid $success;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
 }

@@ -1,8 +1,8 @@
 @import '../../../node_modules/bootstrap/scss/functions';
-@import './helpers/variables';
+@import './helpers/variables'; //客製化成自己的bootstrap (因為default關係，所以前面會覆蓋掉後面)
 @import '../../../node_modules/bootstrap/scss/bootstrap';
 
-@import './helpers/base';
+@import './config/base';
 
 @import './util/text';
 
